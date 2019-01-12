@@ -1,11 +1,14 @@
 import React from 'react'
 import './header.css'
 import Carousel from './carousel/carousel'
+import Navigation from './navigarion/navigation'
 
 const Header = () =>{
     return(
         <header className="main-header" >
-            <Carousel></Carousel>            
+                       
+            <Navigation></Navigation>
+            <Carousel></Carousel> 
         </header>
     )
 }

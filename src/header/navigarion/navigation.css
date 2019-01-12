@@ -1,0 +1,21 @@
+.navigation-container{
+    position: relative;
+    z-index: 4;
+    line-height: 3;
+    background-color: black;
+    background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.navigation-container .nav-item{
+    color: white;
+    opacity: 1;
+}
+
+.mr-400{
+    margin-right: 400px;
+}
+
+.dropdown >.nav-link{
+    color:rgba(256,256,256,1) !important;
+}
